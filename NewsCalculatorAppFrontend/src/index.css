@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+  font-family: 'Inter';
+}
+
+.text-h1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.text-h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.news-input {
+  background-color: #FAF6FF;
+  border: 1px solid #7424DA0D;
+  padding: 10px 12px 10px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.text-small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0;
+}

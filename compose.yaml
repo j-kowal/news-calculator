@@ -1,0 +1,15 @@
+﻿services:
+  news-calculator-app:
+    image: news-calculator-app
+    build:
+      context: .
+      dockerfile: NewsCalculatorApp/Dockerfile
+    ports:
+      - "4000:8080"
+  news-calculator-app-frontend:
+    image: news-calculator-app-frontend
+    build:
+      context: NewsCalculatorAppFrontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:8080"

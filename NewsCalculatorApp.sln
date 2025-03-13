@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsCalculatorApp", "NewsCalculatorApp\NewsCalculatorApp.csproj", "{76D4EDA7-F1BD-4BB4-9248-438BEEFB5DFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3AC92BF8-9F59-4B6F-AC43-DC224CA13182}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsCalculatorAppTests", "NewsCalculatorAppTests\NewsCalculatorAppTests.csproj", "{0C5C9573-9EC8-40CA-B49F-2CC63F1F2FD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76D4EDA7-F1BD-4BB4-9248-438BEEFB5DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D4EDA7-F1BD-4BB4-9248-438BEEFB5DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D4EDA7-F1BD-4BB4-9248-438BEEFB5DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D4EDA7-F1BD-4BB4-9248-438BEEFB5DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5C9573-9EC8-40CA-B49F-2CC63F1F2FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5C9573-9EC8-40CA-B49F-2CC63F1F2FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5C9573-9EC8-40CA-B49F-2CC63F1F2FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5C9573-9EC8-40CA-B49F-2CC63F1F2FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
